@@ -1,0 +1,11 @@
+# coding = UTF-8
+
+#输入年份和月份，输出日历
+
+import calendar
+
+year = int(input("请输入年份:"))
+month = int(input("请输入月份:"))
+
+print(calendar.month(year, month))
+
