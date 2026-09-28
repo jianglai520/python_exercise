@@ -1,4 +1,3 @@
-
 def main():
     number = int(input("请输入想阶乘的数字："))
     fact = factorial(number)
